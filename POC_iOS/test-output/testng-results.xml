@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="42401" started-at="2017-10-24T18:40:04Z" finished-at="2017-10-24T18:40:47Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="42401" started-at="2017-10-24T18:40:04Z" finished-at="2017-10-24T18:40:47Z">
+      <class name="poc.ios.tests.iOSTest2">
+        <test-method status="PASS" signature="setUpTest()[pri:0, instance:poc.ios.tests.iOSTest2@64bfbc86]" name="setUpTest" is-config="true" duration-ms="21918" started-at="2017-10-24T16:40:04Z" finished-at="2017-10-24T16:40:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpTest -->
+        <test-method status="PASS" signature="cadastrarReceita()[pri:0, instance:poc.ios.tests.iOSTest2@64bfbc86]" name="cadastrarReceita" duration-ms="19676" started-at="2017-10-24T16:40:26Z" finished-at="2017-10-24T16:40:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cadastrarReceita -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:poc.ios.tests.iOSTest2@64bfbc86]" name="getResult" is-config="true" duration-ms="4" started-at="2017-10-24T16:40:46Z" finished-at="2017-10-24T16:40:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=cadastrarReceita status=SUCCESS method=iOSTest2.cadastrarReceita()[pri:0, instance:poc.ios.tests.iOSTest2@64bfbc86] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="afterTests()[pri:0, instance:poc.ios.tests.iOSTest2@64bfbc86]" name="afterTests" is-config="true" duration-ms="772" started-at="2017-10-24T16:40:46Z" finished-at="2017-10-24T16:40:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTests -->
+      </class> <!-- poc.ios.tests.iOSTest2 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
